@@ -1,0 +1,37 @@
+.local .if .then .do .repeat .until .else .elseif .end .for .in .return .break .continue .export .function .tpye .typeof .while
+.not {
+    color: #BF372A;
+}
+
+.boolen .nil { /* It has bigger font weight then number */
+    color: #F2B705;
+}
+
+.number {
+    color: #F2B705;
+}
+
+.workspace .script .pairs .require .game .Ray .RaycastParams .OverlapParams .Axes .BrickColor .bit32 .Color3 .CFrame .coroutine 
+.ColorSquence .CatalogSearchParams .ColorSequenceKeypoint .debug .delay .DateTime .DockWidgetPluginGuiInfo .Enum .error .Faces .File .Font
+.FloatCurveKey .gcinfo .getfenv .getmetatable .Instance .ipairs .loadstring .math .next .newproxy .NumberRange .NumberSequence 
+.NumberSequenceKeypoint .os .print .pairs .pcall .plugin .PathWaypoint .PhysicalProperties .Rect .Random .rawget .rawlen .rawset
+.rawequal .Region3 .RotationCurveKey .Region3int16 .setmetatable .string .spawn .Secret .select .shared .setfenv .Settings .SharedTable
+.task .tostring .TweenInfo .tick .time .table .tonumber .UDim .UDim2 .utf8 .unpack .UserSettings .Vector3 .Vector2 .Vector3int16
+.Vector2int16 .wait .warn .xpcall {
+    color: #49A3F2;
+}
+
+.Data .Properity .Name .Parent .Value .Archivable .ClassName { /* Includes all custom datas */
+    color: #2552B3;
+}
+
+.methods .WaitForChild .FindFirstChild .Clone .Destroy .GetTags .GetChildren .IsPropertyModified .GetPropertyChangedSignal .IsA .AddTag
+.HasTag .MoveTo .Remove .PivotTo .Raycast .Spherecast .Blockcast .ScaleTo .GetActor .GetPivot .GetScale .RemoveTag .BulkMoveTo .GetFullName
+.TranslateBy .GetAttribute .IsAncestorOf .PGSIsEnabled .SetAttribute .GetAttributes .GetBoundingBox .GetDescendants .GetExtentsSize
+.GetPartsInPart .IsDescendantOf .JoinToOutsiders .ClearAllChildren .GetNumAwakeParts .GetServerTimeNow .FindFirstAncestor .GetRealPhysicsFPS
+.GetPartsBoundInBox .GetPartsBoundInRadius .AddPersistentPlayer .FindFirstDescendant .UnjoinFromOutsiders .GetPersistentPlayers .ArePartsTouchingOthers
+.GetPhysicsThrottling .FindFirstChildOfClass .FindFirstChildWhichIsA .RemovePersistentPlayer .ResetPropertyToDefualt .GetPropertyChangedSignal
+.FindFirstAncestorOfClass .FindFirstAncestorWhichIsA {
+    color: #FDDC6D;
+    background-color: red;
+}
